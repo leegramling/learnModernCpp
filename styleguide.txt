@@ -1,0 +1,16 @@
+Whether you are a beginner or experenced programmer you should adopt a style guide and use in when writting code.
+The following is the style guide that will be used for code in these examples.
+
+Here are examples of c++ style guides
+Links: 
+http://www.stroustrup.com/bs_faq2.html
+https://google.github.io/styleguide/cppguide.html
+https://www.juce.com/learn/coding-standards
+
+* Spaces not tabs (if you switch to python tabs will cause you great pain)
+* 4 spaces for indenting code (or pick a number and stick to it)
+* 80 column lines (exceptions are for formated inline text or markup)
+* Braces follow Linux kernel style with braces on same line as if, for, while but on new line after function/methods
+  This makes code more compact and methods easier to copy to header file by just adding simicolon at end of line
+* 
+
