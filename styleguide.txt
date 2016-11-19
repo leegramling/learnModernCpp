@@ -1,5 +1,5 @@
 Whether you are a beginner or experenced programmer you should adopt a style guide and use in when writting code.
-The following is the style guide that will be used for code in these examples.
+
 
 Here are examples of c++ style guides
 Links: 
@@ -7,10 +7,28 @@ http://www.stroustrup.com/bs_faq2.html
 https://google.github.io/styleguide/cppguide.html
 https://www.juce.com/learn/coding-standards
 
-* Spaces not tabs (if you switch to python tabs will cause you great pain)
-* 4 spaces for indenting code (or pick a number and stick to it)
+The following is the style guide that will be used for code in these examples.
+* Spaces not tabs 
+* 4 spaces for indenting code 
 * 80 column lines (exceptions are for formated inline text or markup)
 * Braces follow Linux kernel style with braces on same line as if, for, while but on new line after function/methods
   This makes code more compact and methods easier to copy to header file by just adding simicolon at end of line
-* 
+* Spend time thinking of good variable and functions names
+* Lowercase for namespace names
+* PascalCase for type names (First letter capital)
+* Use camelCase for variable and function/method names
+* Space after if, for, while, and commas 
+* Do not declare multiple variable with one type: int x,y,z;
+* When declaring pointers put the * with the type: MyObj* objptr;
+* Always use const to show if a variable or method is mutable
+
+
+
+C++ guidelines (might move this to seperate file)
+* Do not use new or delete unless writing libraries, prefer containers for heap memory management
+* Minimize use of pointer-> dereference by using references
+  There are several ways to minimize -> dereferences that will be show in examples.
+* Minimize use of passing or returning pointers, prefer func(const Type&) or func(Type&) and const T& func() or T& func()
+
+
 
