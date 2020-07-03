@@ -1,2 +1,2 @@
 # learnModernCpp
-Learn Modern c++/11/14 with examples and style guidelines
+Learn Modern c++/17 with examples and style guidelines
